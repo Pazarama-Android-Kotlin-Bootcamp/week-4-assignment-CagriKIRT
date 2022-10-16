@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+
     android:orientation="vertical"
     tools:context=".fragments.LoginFragment">
 
@@ -13,16 +14,18 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
-        tools:ignore="TouchTargetSizeCheck" />
+        tools:ignore="TouchTargetSizeCheck"
+
+        />
 
     <Space
         android:layout_width="100dp"
         android:layout_height="100dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/enter_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="Enter"
+        />
 </LinearLayout>
